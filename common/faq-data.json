@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Nhà thông minh (Smart Home) là gì?",
+    "description": "Nhà thông minh (Smart Home) là ngôi nhà được trang bị các thiết bị điện tử có thể điều khiển trực tiếp hoặc từ xa qua smartphone. Đặc biệt với FPT Smart Home bạn có thể điều khiển ngôi nhà của mình bằng giọng nói Tiếng Việt, hệ thống nhà thông minh giúp bạn quản lý, điều khiển và kiểm soát an ninh của ngôi nhà một cách an toàn."
+  },
+  {
+    "id": 2,
+    "name": "Lắp đặt thiết bị nhà thông minh FPT Smart Home có phức tạp không?",
+    "description": "Với sản phẩm FPT Smart Home bạn có thể tự lắp đặt thiết bị thông minh cho gia đình của mình. Ngoài ra, đội ngũ kỹ thuật từ FPT Smart Home luôn sẵn sàng hỗ trợ bạn trong quá trình tư vấn cũng như cài đặt sản phẩm."
+  },
+  {
+    "id": 3,
+    "name": "Với khoản kinh phí bao nhiêu thì có thể lắp đặt được nhà thông minh FPT Smart Home?",
+    "description": "Với kinh phí từ khoảng 10 triệu đồng bạn có thể biến ngôi nhà của mình thành ngôi nhà thông minh."
+  },
+  {
+    "id": 4,
+    "name": "Nhà tôi đã hoàn thiện rồi và muốn thay thế thiết bị trong nhà thành thiết bị thông minh có được không?",
+    "description": "Hoàn toàn được và dễ dàng nâng cấp từ thiết bị bình thường lên các thiết bị thông minh. FPT Smart Home sẽ hỗ trợ tư vấn, khảo sát để đưa ra phương án nâng cấp tối ưu cho khách hàng, mang lại sự trải nghiệm tuyệt vời nhất."
+  },
+  {
+    "id": 5,
+    "name": "Tôi vẫn chưa yên tâm về chất lượng và nguồn gốc xuất xứ?",
+    "description": "Với FPT Smart Home khách hàng hoàn toàn yên tâm và tin tưởng sử dụng dịch vụ. Các thiết bị nhà thông minh đến từ FPT Smart Home đều do các kỹ sư của FPT Smart Home nghiên cứu và hoàn thiện, bộ xử lý trung tâm được Google xác thực và cấp chứng chỉ để triển khai đến khách hàng.Các sản phẩm đều được tuân theo các TCVN trước khi đưa ra thị trường, có các chứng nhận về ROHS, CE… Khách hàng hoàn toàn yên tâm về chất lượng dịch vụ và nguồn gốc xuất xứ các sản phẩm của FPT Smart Home. "
+  },
+  {
+    "id": 6,
+    "name": "Trong quá trình sử dụng, nếu gặp vấn đề thì FPT Smart Home hỗ trợ ra sao?",
+    "description": "FPT Smart Home là đơn vị trực thuộc của FPT Telecom, luôn dẫn đầu trong việc hỗ trợ khách hàng và mang lại sự trải nghiệm tốt nhất đến khách hàng. Dịch vụ hiện đang có mặt tại tất cả tỉnh thành trên toàn quốc và hỗ trợ 24/7. Khi có vấn đề, Quý khách hàng có thể liên hệ tổng đài 19006600 để tiếp nhận thông tin, chăm sóc, hỗ trợ và bảo hành, sửa chữa tận nhà."
+  },
+  {
+    "id": 7,
+    "name": "Sử dụng nhà thông minh FPT Smart Home có bị mất kết nối không?",
+    "description": "FPT Smart Home sử dụng các chuẩn kết nối Bluetooth Mesh và Zigbee, đảm bảo hoạt động ổn định trong hệ thống. Các thiết bị sẽ liên kết với nhau thành mạng lưới kết nối được điều khiển bởi thiết bị trung tâm (FPT Play Box). Trường hợp nhà khách hàng mất Internet thì hệ thống FPT Smart Home vẫn hoạt động bình thường, khách hàng có thể điều khiển trực tiếp trên giao diện từ Bộ điều khiển trung tâm hoặc thông qua ứng dụng trên di động."
+  }
+]

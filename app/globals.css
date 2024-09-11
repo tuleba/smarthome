@@ -1,0 +1,768 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.container {
+  @apply mx-auto px-4;
+  max-width: 1252px;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff !important;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 15px !important;
+}
+.swiper-pagination-bullet {
+  background-color: #fff !important;
+}
+.header {
+  transition: all 0.3s ease;
+}
+@keyframes identifier {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.pointer {
+  width: 20px;
+  height: 20px;
+  background-color: #f97316;
+  border-radius: 100%;
+  position: absolute;
+  animation: identifier 1s infinite;
+}
+.pointer-md {
+  width: 10px;
+  height: 10px;
+  background-color: #f97316;
+  border-radius: 100%;
+  position: absolute;
+  animation: identifier 1s infinite;
+}
+@keyframes lineStraightAnimation {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
+}
+@keyframes lineAnimation1 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 60.5%;
+  }
+}
+@keyframes lineAnimation2 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50.5%;
+  }
+}
+@keyframes lineAnimation3 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 34.9%;
+  }
+}
+@keyframes lineAnimation4 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 27.5%;
+  }
+}
+@keyframes lineAnimation5 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 16%;
+  }
+}
+@keyframes lineAnimation6 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 9%;
+  }
+}
+@keyframes lineMdAnimation1 {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 35%;
+  }
+}
+@keyframes lineMdAnimation2 {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 16.5%;
+  }
+}
+@keyframes lineMdAnimation3 {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 17.9%;
+  }
+}
+@keyframes lineMdAnimation4 {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 28.5%;
+  }
+}
+@keyframes lineMdAnimation5 {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 18%;
+  }
+}
+@keyframes lineMdAnimation6 {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 16%;
+  }
+}
+.line-straight {
+  width: 1px;
+  height: 100%;
+  background-color: #000000;
+  position: absolute;
+  animation: lineStraightAnimation 2s forwards;
+}
+
+.line-1 {
+  height: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: lineAnimation1 1s forwards;
+}
+.line-2 {
+  height: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: lineAnimation2 1s forwards;
+}
+.line-3 {
+  height: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: lineAnimation3 1s forwards;
+}
+.line-4 {
+  height: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: lineAnimation4 1s forwards;
+}
+.line-5 {
+  height: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: lineAnimation5 1s forwards;
+}
+.line-6 {
+  height: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: lineAnimation6 1s forwards;
+}
+.line-md-1 {
+  width: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: lineMdAnimation1 1s forwards;
+}
+.line-md-2 {
+  width: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: lineMdAnimation2 1s forwards;
+}
+.line-md-3 {
+  width: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: lineMdAnimation3 1s forwards;
+}
+.line-md-4 {
+  width: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: lineMdAnimation4 1s forwards;
+}
+.line-md-5 {
+  width: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: lineMdAnimation5 1s forwards;
+}
+.line-md-6 {
+  width: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: lineMdAnimation6 1s forwards;
+}
+/* Phòng ngủ 2 */
+@keyframes linePn2Animation1 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 25.3%;
+  }
+}
+@keyframes linePn2Animation2 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 39.5%;
+  }
+}
+@keyframes linePn2Animation3 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 11.9%;
+  }
+}
+@keyframes linePn2Animation4 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 59.1%;
+  }
+}
+@keyframes linePn2Animation5 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 12%;
+  }
+}
+@keyframes linePn2Animation6 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 26.3%;
+  }
+}
+@keyframes linePn2MdAnimation1 {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 36%;
+  }
+}
+@keyframes linePn2MdAnimation2 {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 7.5%;
+  }
+}
+@keyframes linePn2MdAnimation3 {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 22%;
+  }
+}
+@keyframes linePn2MdAnimation4 {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 27.5%;
+  }
+}
+@keyframes linePn2MdAnimation5 {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 25%;
+  }
+}
+@keyframes linePn2MdAnimation6 {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 31%;
+  }
+}
+.line-straight {
+  width: 1px;
+  height: 100%;
+  background-color: #000000;
+  position: absolute;
+  animation: lineStraightAnimation 2s forwards;
+}
+
+.line-pn2-1 {
+  height: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: linePn2Animation1 1s forwards;
+}
+.line-pn2-2 {
+  height: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: linePn2Animation2 1s forwards;
+}
+.line-pn2-3 {
+  height: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: linePn2Animation3 1s forwards;
+}
+.line-pn2-4 {
+  height: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: linePn2Animation4 1s forwards;
+}
+.line-pn2-5 {
+  height: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: linePn2Animation5 1s forwards;
+}
+.line-pn2-6 {
+  height: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: linePn2Animation6 1s forwards;
+}
+.line-pn2-md-1 {
+  width: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: linePn2MdAnimation1 1s forwards;
+}
+.line-pn2-md-2 {
+  width: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: linePn2MdAnimation2 1s forwards;
+}
+.line-pn2-md-3 {
+  width: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: linePn2MdAnimation3 1s forwards;
+}
+.line-pn2-md-4 {
+  width: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: linePn2MdAnimation4 1s forwards;
+}
+.line-pn2-md-5 {
+  width: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: linePn2MdAnimation5 1s forwards;
+}
+.line-pn2-md-6 {
+  width: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: linePn2MdAnimation6 1s forwards;
+}
+/* Phòng ngủ 3 */
+@keyframes linePn3Animation1 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 11.6%;
+  }
+}
+@keyframes linePn3Animation2 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 46.5%;
+  }
+}
+@keyframes linePn3Animation3 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 11.9%;
+  }
+}
+@keyframes linePn3Animation4 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 57.1%;
+  }
+}
+
+@keyframes linePn3MdAnimation1 {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 21%;
+  }
+}
+@keyframes linePn3MdAnimation2 {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 15.5%;
+  }
+}
+@keyframes linePn3MdAnimation3 {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 14.9%;
+  }
+}
+@keyframes linePn3MdAnimation4 {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 9.5%;
+  }
+}
+
+.line-pn3-1 {
+  height: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: linePn3Animation1 1s forwards;
+}
+.line-pn3-2 {
+  height: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: linePn3Animation2 1s forwards;
+}
+.line-pn3-3 {
+  height: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: linePn3Animation3 1s forwards;
+}
+.line-pn3-4 {
+  height: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: linePn3Animation4 1s forwards;
+}
+
+.line-pn3-md-1 {
+  width: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: linePn3MdAnimation1 1s forwards;
+}
+.line-pn3-md-2 {
+  width: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: linePn3MdAnimation2 1s forwards;
+}
+.line-pn3-md-3 {
+  width: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: linePn3MdAnimation3 1s forwards;
+}
+.line-pn3-md-4 {
+  width: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: linePn3MdAnimation4 1s forwards;
+}
+/* Phòng khách */
+@keyframes linePkAnimation1 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 15.3%;
+  }
+}
+@keyframes linePkAnimation2 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 25.8%;
+  }
+}
+@keyframes linePkAnimation3 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 43.9%;
+  }
+}
+@keyframes linePkAnimation4 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 32.5%;
+  }
+}
+@keyframes linePkAnimation5 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 44%;
+  }
+}
+@keyframes linePkMdAnimation1 {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 13%;
+  }
+}
+@keyframes linePkMdAnimation2 {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 16.5%;
+  }
+}
+@keyframes linePkMdAnimation3 {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 15.9%;
+  }
+}
+@keyframes linePkMdAnimation4 {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 25.5%;
+  }
+}
+@keyframes linePkMdAnimation5 {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 20%;
+  }
+}
+.line-pk-1 {
+  height: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: linePkAnimation1 1s forwards;
+}
+.line-pk-2 {
+  height: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: linePkAnimation2 1s forwards;
+}
+.line-pk-3 {
+  height: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: linePkAnimation3 1s forwards;
+}
+.line-pk-4 {
+  height: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: linePkAnimation4 1s forwards;
+}
+.line-pk-5 {
+  height: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: linePkAnimation5 1s forwards;
+}
+.line-pk-md-1 {
+  width: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: linePkMdAnimation1 1s forwards;
+}
+.line-pk-md-2 {
+  width: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: linePkMdAnimation2 1s forwards;
+}
+.line-pk-md-3 {
+  width: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: linePkMdAnimation3 1s forwards;
+}
+.line-pk-md-4 {
+  width: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: linePkMdAnimation4 1s forwards;
+}
+.line-pk-md-5 {
+  width: 1px;
+  background-color: #000000;
+  position: absolute;
+  animation: linePkMdAnimation5 1s forwards;
+}

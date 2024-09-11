@@ -1,0 +1,522 @@
+[
+  {
+    "id": "C1PN",
+    "name": "Căn hộ 1PN",
+    "disc": [
+      {
+        "title": "Khu vực sinh hoạt chung: Bếp+ Bàn ăn + Ban Công",
+        "items": [
+          {
+            "name": "Bộ điều khiển trung tâm FPT Play Box S",
+            "price": 2190000,
+            "link": "https://fpt-smarthome.vn/fpt-play-box-s"
+          },
+          {
+            "name": "Công tắc cảm ứng 2 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          },
+          {
+            "name": "Công tắc cảm ứng 3 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          },
+          {
+            "name": "Công tắc cảm ứng 4 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          },
+          {
+            "name": "Cảm biến cửa",
+            "price": 890000,
+            "link": ""
+          }
+        ]
+      },
+      {
+        "title": "Phòng ngủ",
+        "items": [
+          {
+            "name": "Công tắc cảm ứng 4 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          },
+          {
+            "name": "Bộ điều khiển hồng ngoại - điều hoà",
+            "price": 690000,
+            "link": ""
+          }
+        ]
+      },
+      {
+        "title": "WC",
+        "items": [
+          {
+            "name": "Công tắc cảm ứng 4 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          },
+          {
+            "name": "Cảm biến chuyển động",
+            "price": 890000,
+            "link": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "C2PN",
+    "name": "Căn hộ 2PN",
+    "disc": [
+      {
+        "title": "Khu vực sinh hoạt chung: Bếp+ Bàn ăn + Ban Công",
+        "items": [
+          {
+            "name": "Bộ điều khiển trung tâm FPT Play Box S",
+            "price": 2190000,
+            "link": "https://fpt-smarthome.vn/fpt-play-box-s"
+          },
+          {
+            "name": "Công tắc cảm ứng 3 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          },
+          {
+            "name": "Công tắc cảm ứng 4 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          },
+          {
+            "name": "Cảm biến cửa",
+            "price": 890000,
+            "link": ""
+          }
+        ]
+      },
+      {
+        "title": "Phòng ngủ 1",
+        "items": [
+          {
+            "name": "Công tắc cảm ứng 3 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          },
+          {
+            "name": "Bộ điều khiển hồng ngoại - điều hoà",
+            "price": 690000,
+            "link": ""
+          }
+        ]
+      },
+      {
+        "title": "WC 1",
+        "items": [
+          {
+            "name": "Công tắc cảm ứng 4 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          },
+          {
+            "name": "Cảm biến chuyển động",
+            "price": 890000,
+            "link": ""
+          }
+        ]
+      },
+      {
+        "title": "Phòng ngủ 2",
+        "items": [
+          {
+            "name": "Công tắc cảm ứng 3 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          },
+          {
+            "name": "Bộ điều khiển hồng ngoại - điều hoà",
+            "price": 690000,
+            "link": ""
+          }
+        ]
+      },
+      {
+        "title": "WC 2",
+        "items": [
+          {
+            "name": "Công tắc cảm ứng 4 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          },
+          {
+            "name": "Cảm biến chuyển động",
+            "price": 890000,
+            "link": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "C3PN",
+    "name": "Căn hộ 3PN",
+    "disc": [
+      {
+        "title": "Phòng khách và phòng WC chung",
+        "items": [
+          {
+            "name": "Bộ điều khiển trung tâm FPT Play Box S",
+            "price": 2190000,
+            "link": "https://fpt-smarthome.vn/fpt-play-box-s"
+          },
+          {
+            "name": "Công tắc cảm ứng 3 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          },
+          {
+            "name": "Công tắc cảm ứng 4 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          },
+          {
+            "name": "Cảm biến chuyển động",
+            "price": 890000,
+            "link": ""
+          },
+          {
+            "name": "Cảm biến cửa",
+            "price": 890000,
+            "link": ""
+          }
+        ]
+      },
+      {
+        "title": "Khu vực sinh hoạt chung: Hành Lang + Phòng làm việc (sảnh đệm)",
+        "items": [
+          {
+            "name": "Công tắc cảm ứng 3 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          }
+        ]
+      },
+      {
+        "title": "Phòng ngủ 1 và WC",
+        "items": [
+          {
+            "name": "Công tắc cảm ứng 3 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          },
+          {
+            "name": "Công tắc cảm ứng 4 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          },
+          {
+            "name": "Bộ điều khiển hồng ngoại - điều hoà",
+            "price": 690000,
+            "link": ""
+          },
+          {
+            "name": "Cảm biến chuyển động",
+            "price": 890000,
+            "link": ""
+          }
+        ]
+      },
+      {
+        "title": "Phòng ngủ 2 và WC",
+        "items": [
+          {
+            "name": "Công tắc cảm ứng 3 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          },
+          {
+            "name": "Công tắc cảm ứng 4 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          },
+          {
+            "name": "Bộ điều khiển hồng ngoại - điều hoà",
+            "price": 690000,
+            "link": ""
+          },
+          {
+            "name": "Cảm biến chuyển động",
+            "price": 890000,
+            "link": ""
+          }
+        ]
+      },
+      {
+        "title": "Phòng ngủ 3 ",
+        "items": [
+          {
+            "name": "Công tắc cảm ứng 4 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          },
+          {
+            "name": "Bộ điều khiển hồng ngoại - điều hoà",
+            "price": 690000,
+            "link": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "NP3T",
+    "name": "Nhà phố 3 tầng",
+    "disc": [
+      {
+        "title": "Tầng trệt",
+        "items": [
+          {
+            "name": "Bộ điều khiển trung tâm FPT Play Box S",
+            "price": 2190000,
+            "link": "https://fpt-smarthome.vn/fpt-play-box-s"
+          },
+          {
+            "name": "Công tắc cảm ứng 3 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          },
+          {
+            "name": "Công tắc cảm ứng 4 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          },
+          {
+            "name": "Cảm biến chuyển động",
+            "price": 890000,
+            "link": ""
+          },
+          {
+            "name": "Cảm biến cửa",
+            "price": 890000,
+            "link": ""
+          }
+        ]
+      },
+      {
+        "title": "Phòng sinh hoạt chung ",
+        "items": [
+          {
+            "name": "Công tắc cảm ứng 3 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          },
+          {
+            "name": "Công tắc cảm ứng 4 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          },
+          {
+            "name": "Bộ điều khiển trung tâm FPT Play Box S",
+            "price": 2190000,
+            "link": ""
+          },
+          {
+            "name": "Cảm biến cửa",
+            "price": 890000,
+            "link": ""
+          }
+        ]
+      },
+      {
+        "title": "Tầng 1: Phòng ngủ 1 và WC",
+        "items": [
+          {
+            "name": "Công tắc cảm ứng 3 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          },
+          {
+            "name": "Công tắc cảm ứng 4 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          },
+          {
+            "name": "Bộ điều khiển hồng ngoại - điều hoà",
+            "price": 690000,
+            "link": ""
+          },
+          {
+            "name": "Cảm biến chuyển động",
+            "price": 890000,
+            "link": ""
+          }
+        ]
+      },
+      {
+        "title": "Tầng 1: Phòng ngủ 2",
+        "items": [
+          {
+            "name": "Công tắc cảm ứng 3 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          },
+          {
+            "name": "Bộ điều khiển hồng ngoại - điều hoà",
+            "price": 690000,
+            "link": ""
+          }
+        ]
+      },
+      {
+        "title": "Tầng 2: Phòng ngủ 3 và WC",
+        "items": [
+          {
+            "name": "Công tắc cảm ứng 3 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          },
+          {
+            "name": "Công tắc cảm ứng 4 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          },
+          {
+            "name": "Bộ điều khiển hồng ngoại - điều hoà",
+            "price": 690000,
+            "link": ""
+          },
+          {
+            "name": "Cảm biến chuyển động",
+            "price": 890000,
+            "link": ""
+          }
+        ]
+      },
+      {
+        "title": "Tầng 2: Phòng ngủ 4 và WC",
+        "items": [
+          {
+            "name": "Công tắc cảm ứng 3 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          },
+          {
+            "name": "Công tắc cảm ứng 4 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          },
+          {
+            "name": "Bộ điều khiển hồng ngoại - điều hoà",
+            "price": 690000,
+            "link": ""
+          },
+          {
+            "name": "Cảm biến chuyển động",
+            "price": 890000,
+            "link": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CDL2PN",
+    "name": "Căn hộ Duplex 2PN",
+    "disc": [
+      {
+        "title": "Phòng khách và phòng WC chung",
+        "items": [
+          {
+            "name": "Bộ điều khiển trung tâm FPT Play Box S",
+            "price": 2190000,
+            "link": "https://fpt-smarthome.vn/fpt-play-box-s"
+          },
+          {
+            "name": "Công tắc cảm ứng 3 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          },
+          {
+            "name": "Công tắc cảm ứng 4 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          },
+          {
+            "name": "Cảm biến chuyển động",
+            "price": 890000,
+            "link": ""
+          },
+          {
+            "name": "Cảm biến cửa",
+            "price": 890000,
+            "link": ""
+          }
+        ]
+      },
+      {
+        "title": "Phòng ngủ 1 và WC",
+        "items": [
+          {
+            "name": "Công tắc cảm ứng 3 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          },
+          {
+            "name": "Công tắc cảm ứng 4 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          },
+          {
+            "name": "Bộ điều khiển hồng ngoại - điều hoà",
+            "price": 690000,
+            "link": ""
+          },
+          {
+            "name": "Cảm biến chuyển động",
+            "price": 890000,
+            "link": ""
+          }
+        ]
+      },
+      {
+        "title": "Phòng ngủ 2 và WC",
+        "items": [
+          {
+            "name": "Công tắc cảm ứng 3 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          },
+          {
+            "name": "Công tắc cảm ứng 4 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          },
+          {
+            "name": "Bộ điều khiển hồng ngoại - điều hoà",
+            "price": 690000,
+            "link": ""
+          },
+          {
+            "name": "Cảm biến chuyển động",
+            "price": 890000,
+            "link": ""
+          }
+        ]
+      },
+      {
+        "title": "Phòng sinh hoạt chung ",
+        "items": [
+          {
+            "name": "Công tắc cảm ứng 4 nút Chữ Nhật",
+            "price": 1790000,
+            "link": ""
+          },
+          {
+            "name": "Cảm biến cửa",
+            "price": 890000,
+            "link": ""
+          }
+        ]
+      }
+    ]
+  }
+]

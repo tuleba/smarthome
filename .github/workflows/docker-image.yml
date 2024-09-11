@@ -1,0 +1,40 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: "Create env file"
+        run: echo "${{ secrets.ENV }}" > .env
+      - name: Build the Docker image
+        run: docker build -t ghcr.io/quochau151/fptsmarthome:latest .
+      - name: Log in to Docker Hub
+        run: docker login ghcr.io -u ${{ secrets.USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
+      - name: Push the Docker image
+        run: docker push ghcr.io/quochau151/fptsmarthome:latest
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Executing remote ssh commands using password
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.HOST_USERNAME }}
+          password: ${{ secrets.HOST_PASSWORD }}
+          port: ${{ secrets.PORT }}
+          script: |
+            docker login ghcr.io -u ${{ secrets.USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
+            docker pull ghcr.io/quochau151/fptsmarthome:latest
+            docker stop fpt-smarthome
+            docker rm fpt-smarthome
+            docker run -d -p 3000:3000  --name fpt-smarthome --restart unless-stopped ghcr.io/quochau151/fptsmarthome:latest

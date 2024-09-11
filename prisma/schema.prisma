@@ -1,0 +1,165 @@
+// prisma/schema.prisma
+
+datasource db {
+  provider  = "postgresql"
+  url  	    = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+generator client {
+  provider = "prisma-client-js"
+}
+enum UserRole {
+  ADMIN
+  USER
+}
+
+enum StateUser {
+ Pending
+ Done
+ Cancel
+}
+enum StateOrder {
+  Pending
+  Done
+  Cancel
+}
+enum StateContact {
+  Pending
+  Done
+  Cancel
+}
+enum StatePartner {
+  Pending
+  Done
+  Cancel
+}
+enum StateBrandShop {
+  Pending
+  Done
+  Cancel
+}
+enum StateItOutsource {
+  Pending
+  Done
+  Cancel
+}
+model User {
+  id            String    @id @default(cuid())
+  name          String?
+  phone         String?
+  email         String?   @unique
+  emailVerified DateTime?
+  state         StateUser @default(Pending)
+  image         String?
+  password      String?
+  role          UserRole @default(USER)
+  accounts      Account[]
+ 
+}
+
+model Account {
+  id                 String  @id @default(cuid())
+  userId             String
+  type               String
+  provider           String
+  providerAccountId  String
+  refresh_token      String?  @db.Text
+  access_token       String?  @db.Text
+  expires_at         Int?
+  token_type         String?
+  scope              String?
+  id_token           String?  @db.Text
+  session_state      String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+  }
+
+model VerificationToken {
+  id String @id @default(cuid())
+  email String
+  token String @unique
+  expires DateTime
+  @@unique([email, token])
+}
+
+model PasswordResetToken {
+  id String @id @default(cuid())
+  email String
+  token String @unique
+  expires DateTime
+@@unique([email, token])
+}
+
+model Product { 
+  id String @id @default(cuid())
+  name String?
+  category String?
+  price String?
+  image String?
+  type String?
+  color String?
+  button String?
+  power String?
+  connect String?
+  type_key String?
+  expires DateTime?
+}
+
+model Order {
+  id String @id @default(cuid())
+  name String
+  phone String
+  email String
+  address String
+  state StateOrder @default(Pending)
+  items_id String[]
+  items_name String[]
+  items_price String[]
+  items_quantity String[]
+}
+model Contact {
+  id String @id @default(cuid())
+  name String?
+  email String?
+  phone String?
+  title String?
+  address String?
+  description String?
+  state StateContact @default(Pending)
+}
+model Partner {
+  id String @id @default(cuid())
+  name String?
+  email String?
+  phone String?
+  address String?
+  note String?
+  state StatePartner @default(Pending)
+}
+model BrandShop {
+  id String @id @default(cuid())
+  name String?
+  email String?
+  phone String?
+  address String?
+  note String?
+  state StateBrandShop @default(Pending)
+}
+model ItOutsource {
+  id String  @id @default(cuid())
+  name String?
+  phone String?
+  address String?
+  type String?
+  time String?
+  state StateItOutsource @default(Pending)
+}
+model connectZaLo {
+  id String  @id @default(cuid())
+  name String?
+  phone String?
+  state StateItOutsource @default(Pending)
+  created_at DateTime
+}

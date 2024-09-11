@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "name": "Đèn LED Downlight",
+    "link": "/den-thong-minh/den-led-downlight"
+  },
+  { "id": 2, "name": "Đèn LED Bulb", "link": "/den-thong-minh/den-led-bulb" },
+  { "id": 3, "name": "Đèn LED Panel", "link": "/den-thong-minh/den-led-panel" },
+  { "id": 4, "name": "Đèn LED Dây", "link": "/den-thong-minh/den-led-day" },
+  {
+    "id": 5,
+    "name": "Đèn LED Tracklight",
+    "link": "/den-thong-minh/den-led-tracklight"
+  },
+  { "id": 6, "name": "Cảm biến cửa", "link": "/cam-bien/cam-bien-cua" },
+  {
+    "id": 7,
+    "name": "Cảm biến chuyển dộng",
+    "link": "/cam-bien/cam-bien-chuyen-dong"
+  },
+  {
+    "id": 8,
+    "name": "Cảm biến chuyển dộng âm trần",
+    "link": "/cam-bien/cam-bien-chuyen-dong-am-tran"
+  },
+  { "id": 9, "name": "Cảm biến khói", "link": "/cam-bien/cam-bien-khoi" },
+  {
+    "id": 10,
+    "name": "Công Tắc Cảm Ứng Athena",
+    "link": "/cong-tac-thong-minh/cong-tac-cam-ung-athena"
+  },
+  {
+    "id": 11,
+    "name": "Công Tắc Cảm Ứng Hera",
+    "link": "/cong-tac-thong-minh/cong-tac-cam-ung-hera"
+  },
+  {
+    "id": 12,
+    "name": "Nút Bấm Ngữ Cảnh Không Dây",
+    "link": "/cong-tac-thong-minh/nut-bam-ngu-canh-khong-day"
+  },
+  {
+    "id": 13,
+    "name": "Động Cơ Rèm Thông Minh",
+    "link": "/bo-rem-cua-thong-minh/dong-co-rem-thong-minh"
+  },
+  {
+    "id": 14,
+    "name": "Bộ Điều Khiển Rèm Cửa",
+    "link": "/bo-rem-cua-thong-minh/bo-dieu-khien-rem-cua"
+  },
+  {
+    "id": 15,
+    "name": "Ray Rèm Điện",
+    "link": "/bo-rem-cua-thong-minh/ray-rem-dien"
+  },
+  {
+    "id": 16,
+    "name": "Công Tắc Điều Khiển Rèm Cửa",
+    "link": "/bo-rem-cua-thong-minh/cong-tac-dieu-khien-rem-cua"
+  },
+  {
+    "id": 17,
+    "name": "Ổ Cắm Thông Minh",
+    "link": "/phu-kien-thong-minh/o-cam-thong-minh"
+  },
+  {
+    "id": 18,
+    "name": "Bộ Điều Khiển Hồng Ngoại",
+    "link": "/phu-kien-thong-minh/bo-dieu-khien-hong-ngoai"
+  },
+  {
+    "id": 19,
+    "name": "Ổ Cắm Mặt Kính Âm Tường",
+    "link": "/phu-kien-thong-minh/o-cam-mat-kinh-am-tuong"
+  },
+  { "id": 20, "name": "USB ZigBee", "link": "/phu-kien-thong-minh/usb-zigbee" },
+  {
+    "id": 21,
+    "name": "Khoá Cửa Vân Tay Yale",
+    "link": "/khoa-cua-thong-minh/khoa-cua-van-tay-yale"
+  },
+  {
+    "id": 22,
+    "name": "Khoá Cửa Thẻ Từ Yale",
+    "link": "/khoa-cua-thong-minh/khoa-cua-the-tu-yale"
+  },
+  {
+    "id": 23,
+    "name": "Camera SE FPT",
+    "link": "/thiet-bi-an-ninh-thong-minh/camera-se-fpt"
+  }
+]
